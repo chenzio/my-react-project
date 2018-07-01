@@ -10,22 +10,6 @@ npm install -g generator-react-webpack
 yo react-webpack
 
 
-# debug
-
-React Developer Tools
-
-````
-...
-postcss: function () {
-  return [
-    require('autoprefixer')({
-      browsers: ['last 2 versions', 'ie >= 8']
-    })
-  ];
-}
-...
-````
-
 # Usage
 
 ````
